@@ -10,6 +10,7 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -83,7 +84,6 @@ nav {
   justify-content: space-around;
   align-items: center;
   color: white;
-  border: 2px solid;
   border-color: white;
 }
 
@@ -96,6 +96,7 @@ nav {
 .project-info {
   background-color: #1a2236;
 }
+
 .design-one {
   width: 100%;
 }
@@ -136,6 +137,7 @@ nav {
 .button {
   padding-bottom: 10px;
 }
+
 .about {
   font-family: "Playfair Display", "Courier New", Courier, monospace;
   color: #1a2236;
@@ -172,6 +174,21 @@ h2 {
   margin: 20px 20px 50px 15px;
   padding: 75px 60px 60px 50px;
   background-repeat: no-repeat;
+  background-image: url('canvao.png'
+}
+
+.skill-containortwo {
+  margin: 20px 20px 50px 15px;
+  padding: 75px 60px 60px 50px;
+  background-repeat: no-repeat;
+  background-image: url('second.png'
+}
+
+.skill-containorthree {
+  margin: 20px 20px 50px 15px;
+  padding: 75px 60px 60px 50px;
+  background-repeat: no-repeat;
+  background-image: url('ideaa.png'
 }
 
 .tileone {
