@@ -10,7 +10,6 @@ header {
   display: flex;
   justify-content: space-between;
 }
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -51,7 +50,10 @@ nav {
 }
 
 .connect {
-  margin: 0 16px;
+  margin: 0 26px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   font-family: "Poppins", "Courier New", Courier, monospace;
   font-weight: 500;
   font-size: 19px;
@@ -61,7 +63,7 @@ nav {
   height: 50px;
   width: 250px;
   border: 2px solid;
-  margin-bottom: 32px;
+  padding: 0 20px;
 }
 
 .connect:hover {
@@ -84,6 +86,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   color: white;
+  border: 2px solid;
   border-color: white;
 }
 
@@ -93,10 +96,23 @@ nav {
   border-color: #1a2236;
 }
 
-.project-info {
-  background-color: #1a2236;
+.background-image {
+  background-image: url("bgbg.png");
+  background-repeat: repeat-x;
+  padding: 19vh 30vh;
+  width: 100%;
+  height: auto;
 }
 
+.projects {
+  display: grid;
+}
+
+.project-info {
+  background-color: #1a2236;
+  display: flex;
+  flex-direction: column;
+}
 .design-one {
   width: 100%;
 }
@@ -135,9 +151,8 @@ nav {
 }
 
 .button {
-  padding-bottom: 10px;
+  display: flex;
 }
-
 .about {
   font-family: "Playfair Display", "Courier New", Courier, monospace;
   color: #1a2236;
@@ -171,24 +186,9 @@ h2 {
 }
 
 .skill-containor {
-  margin: 20px 20px 50px 15px;
-  padding: 75px 60px 60px 50px;
+  margin: 20px 20px 35px 15px;
+  padding: 70px 55px 55px 45px;
   background-repeat: no-repeat;
-  background-image: url('canvao.png');
-}
-
-.skill-containortwo {
-  margin: 20px 20px 50px 15px;
-  padding: 75px 60px 60px 50px;
-  background-repeat: no-repeat;
-  background-image: url('second.png');
-}
-
-.skill-containorthree {
-  margin: 20px 20px 50px 15px;
-  padding: 75px 60px 60px 50px;
-  background-repeat: no-repeat;
-  background-image: url('ideaa.png');
 }
 
 .tileone {
@@ -201,6 +201,8 @@ h2 {
 }
 
 .skills {
+  display: flex;
+  flex-direction: column;
   font-family: "Poppins", "Courier New", Courier, monospace;
   font-weight: 600;
   font-size: 18px;
