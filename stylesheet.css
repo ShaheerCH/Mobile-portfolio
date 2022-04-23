@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.logo {
+  cursor: pointer;
+  color: #1a2236;
+  letter-spacing: 3px;
+  font-family: "Playfair Display", "Courier New", Courier, monospace;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 50px;
+  padding: 30px 84px 0 16px;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #1a2236;
+  margin: 5px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  color: #1a2236;
+  margin: 0;
+}
+
+.greeting {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  padding: 20px 16px 40px 16px;
+}
+
+button {
+  margin: 0 16px;
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  font-weight: 500;
+  font-size: 19px;
+  color: white;
+  line-height: 20px;
+  background-color: #1a2236;
+  height: 50px;
+  width: 250px;
+  border: none;
+  margin-bottom: 32px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.design-one {
+  width: 100%;
+}
+
+.headingtwo {
+  font-size: 50px;
+  line-height: 50px;
+  font-family: "Playfair Display", "Courier New", Courier, monospace;
+  font-weight: 400;
+  color: #1a2236;
+  margin: 40px 123px 32px 16px;
+}
+
+.about {
+  font-family: "Playfair Display", "Courier New", Courier, monospace;
+  color: #1a2236;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 400;
+  padding: 56px 117px 20px 16px;
+}
+
+.about-info {
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #1a2236;
+  padding: 0 16px 32px;
+}
+
+.cv {
+  width: 288px;
+  height: 50px;
+  margin: 16px;
+}
+
+h2 {
+  display: none;
+}
