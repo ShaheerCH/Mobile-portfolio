@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -45,7 +49,7 @@ nav {
   padding: 20px 16px 40px 16px;
 }
 
-button {
+.connect {
   margin: 0 16px;
   font-family: "Poppins", "Courier New", Courier, monospace;
   font-weight: 500;
@@ -55,16 +59,43 @@ button {
   background-color: #1a2236;
   height: 50px;
   width: 250px;
-  border: none;
+  border: 2px solid;
   margin-bottom: 32px;
 }
 
-.button {
-  display: flex;
-  justify-content: center;
-  color: white;
+.connect:hover {
+  background-color: white;
+  color: #1a2236;
 }
 
+.see-project {
+  margin: 0 16px;
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 20px;
+  background-color: #1a2236;
+  height: 50px;
+  width: 250px;
+  border: 2px solid;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  border: 2px solid;
+  border-color: white;
+}
+
+.see-project:hover {
+  background-color: white;
+  color: #1a2236;
+  border-color: #1a2236;
+}
+
+.project-info {
+  background-color: #1a2236;
+}
 .design-one {
   width: 100%;
 }
@@ -78,6 +109,33 @@ button {
   margin: 40px 123px 32px 16px;
 }
 
+.project-name {
+  padding: 20px 55px 16px 20px;
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  font-size: 20px;
+  line-height: 16px;
+  font-weight: 300;
+  color: white;
+}
+
+.project-details {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  font-size: 11px;
+  color: #1a2236;
+}
+
+.lang {
+  background-color: #98dede;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding-bottom: 10px;
+}
 .about {
   font-family: "Playfair Display", "Courier New", Courier, monospace;
   color: #1a2236;
@@ -104,4 +162,35 @@ button {
 
 h2 {
   display: none;
+}
+
+.end {
+  margin: 0 16px;
+}
+
+.skill-containor {
+  margin: 20px 20px 50px 15px;
+  padding: 75px 60px 60px 50px;
+  background-repeat: no-repeat;
+}
+
+.tileone {
+  font-size: 20px;
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  font-weight: 800;
+  line-height: 30px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.skills {
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: white;
+}
+
+.thumbnails {
+  width: 100%;
 }
