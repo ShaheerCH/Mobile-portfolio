@@ -59,6 +59,7 @@ button {
   border: none;
   margin-bottom: 32px;
 }
+
 .button {
   display: flex;
   justify-content: center;
@@ -68,6 +69,7 @@ button {
 .design-one {
   width: 100%;
 }
+
 .headingtwo {
   font-size: 50px;
   line-height: 50px;
