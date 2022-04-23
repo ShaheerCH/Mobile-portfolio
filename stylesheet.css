@@ -39,7 +39,6 @@ nav {
 }
 
 .greeting {
-  padding-top: 20px;
   font-size: 16px;
   line-height: 20px;
   font-family: "Poppins", "Courier New", Courier, monospace;
@@ -48,7 +47,7 @@ nav {
 
 button {
   margin: 0 16px;
-  font-family: "Poppins";
+  font-family: "Poppins", "Courier New", Courier, monospace;
   font-weight: 500;
   font-size: 19px;
   color: white;
