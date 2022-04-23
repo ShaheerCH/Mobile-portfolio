@@ -17,11 +17,11 @@ nav {
   cursor: pointer;
   color: #1a2236;
   letter-spacing: 3px;
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", "Courier New", Courier, monospace;
   font-weight: 400;
   font-size: 55px;
   line-height: 50px;
-  padding: 30px 84px 0px 16px;
+  padding: 30px 84px 0 16px;
 }
 
 .burger div {
@@ -35,19 +35,19 @@ nav {
   display: flex;
   flex-direction: column;
   color: #1a2236;
-  margin: 0px;
+  margin: 0;
 }
 
 .greeting {
   padding-top: 20px;
   font-size: 16px;
   line-height: 20px;
-  font-family: "Poppins";
+  font-family: "Poppins", "Courier New", Courier, monospace;
   padding: 20px 16px 40px 16px;
 }
 
 button {
-  margin: 0px 16px;
+  margin: 0 16px;
   font-family: "Poppins";
   font-weight: 500;
   font-size: 19px;
@@ -71,14 +71,14 @@ button {
 .headingtwo {
   font-size: 50px;
   line-height: 50px;
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", "Courier New", Courier, monospace;
   font-weight: 400;
   color: #1a2236;
   margin: 40px 123px 32px 16px;
 }
 
 .about {
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", "Courier New", Courier, monospace;
   color: #1a2236;
   font-size: 50px;
   line-height: 50px;
@@ -87,12 +87,12 @@ button {
 }
 
 .about-info {
-  font-family: "Poppins";
+  font-family: "Poppins", "Courier New", Courier, monospace;
   font-size: 15px;
   font-weight: 400;
   line-height: 20px;
   color: #1a2236;
-  padding: 0px 16px 32px;
+  padding: 0 16px 32px;
 }
 
 .cv {
