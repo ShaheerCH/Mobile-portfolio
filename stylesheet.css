@@ -1,19 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 header {
   display: flex;
   justify-content: space-between;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-right: 16px;
 }
+
 .logo {
   cursor: pointer;
   color: #1a2236;
@@ -24,6 +28,7 @@ nav {
   line-height: 50px;
   padding: 30px 84px 0 16px;
 }
+
 .burger div {
   width: 25px;
   height: 3px;
@@ -61,6 +66,7 @@ nav {
   border: 2px solid;
   margin-bottom: 32px;
 }
+
 .connect:hover {
   background-color: white;
   color: #1a2236;
@@ -83,6 +89,7 @@ nav {
   color: white;
   border-color: white;
 }
+
 .see-project:hover {
   background-color: white;
   color: #1a2236;
@@ -137,11 +144,13 @@ nav {
   font-size: 11px;
   color: #1a2236;
 }
+
 .lang {
   background-color: #98dede;
   padding: 5px;
   margin-bottom: 20px;
 }
+
 .button {
   padding-bottom: 10px;
   display: flex;
@@ -164,17 +173,21 @@ nav {
   color: #1a2236;
   padding: 0 16px 32px;
 }
+
 .cv {
   width: 288px;
   height: 50px;
   margin: 16px;
 }
+
 h2 {
   display: none;
 }
+
 .end {
   margin: 0 16px;
 }
+
 .skill-containor {
   margin: 20px 20px 50px 15px;
   padding: 75px 60px 60px 50px;
@@ -204,6 +217,7 @@ h2 {
   color: white;
   padding-bottom: 20px;
 }
+
 .skills {
   display: flex;
   flex-direction: column;
@@ -213,6 +227,7 @@ h2 {
   line-height: 27px;
   color: white;
 }
+
 .thumbnails {
   width: 100%;
 }
