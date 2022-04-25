@@ -153,7 +153,7 @@ nav {
 .lang {
   background-color: #98dede;
   padding: 4px 10px;
-  margin: 0px 5px 20px 5px;
+  margin: 0 5px 20px 5px;
 }
 
 .button {
@@ -195,19 +195,19 @@ h2 {
 
 .skill-containor {
   margin: 20px 20px 24px 15px;
-  padding: 55px 60px 0px 50px;
+  padding: 55px 60px 0 50px;
   background-color: #1c528a;
 }
 
 .skill-containortwo {
   margin: 20px 20px 24px 15px;
-  padding: 55px 60px 00px 50px;
+  padding: 55px 60px 0 50px;
   background-color: #e2505c;
 }
 
 .skill-containorthree {
   margin: 20px 20px 24px 15px;
-  padding: 55px 60px 0px 50px;
+  padding: 55px 60px 0 50px;
   background-color: #febf52;
 }
 
