@@ -54,7 +54,7 @@ nav {
   margin: 0 26px 32px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   font-family: "Poppins", "Courier New", Courier, monospace;
   font-weight: 500;
   font-size: 19px;
@@ -64,7 +64,6 @@ nav {
   height: 50px;
   width: 250px;
   border: 2px solid;
-  margin-bottom: 32px;
 }
 
 .connect:hover {
@@ -72,8 +71,14 @@ nav {
   color: #1a2236;
 }
 
+.download {
+  display: flex;
+  width: 40px;
+  height: 40px;
+}
+
 .see-project {
-  margin: 0 16px;
+  margin: 0 20px 32px;
   font-family: "Poppins", "Courier New", Courier, monospace;
   font-weight: 500;
   font-size: 19px;
@@ -82,9 +87,8 @@ nav {
   height: 50px;
   width: 250px;
   border: 2px solid;
-  margin-bottom: 32px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   color: white;
   border-color: white;
@@ -139,7 +143,8 @@ nav {
 .project-details {
   display: flex;
   list-style: none;
-  justify-content: space-around;
+  justify-content: flex-start;
+  margin-left: 16px;
   font-family: "Poppins", "Courier New", Courier, monospace;
   font-size: 11px;
   color: #1a2236;
@@ -147,8 +152,8 @@ nav {
 
 .lang {
   background-color: #98dede;
-  padding: 5px;
-  margin-bottom: 20px;
+  padding: 4px 10px;
+  margin: 0px 5px 20px 5px;
 }
 
 .button {
@@ -189,24 +194,30 @@ h2 {
 }
 
 .skill-containor {
-  margin: 20px 20px 50px 15px;
-  padding: 75px 60px 60px 50px;
-  background-repeat: no-repeat;
-  background-image: url("canvao.png");
+  margin: 20px 20px 24px 15px;
+  padding: 55px 60px 0px 50px;
+  background-color: #1c528a;
 }
 
 .skill-containortwo {
-  margin: 20px 20px 50px 15px;
-  padding: 75px 60px 60px 50px;
-  background-repeat: no-repeat;
-  background-image: url("second.png");
+  margin: 20px 20px 24px 15px;
+  padding: 55px 60px 00px 50px;
+  background-color: #e2505c;
 }
 
 .skill-containorthree {
-  margin: 20px 20px 50px 15px;
-  padding: 75px 60px 60px 50px;
-  background-repeat: no-repeat;
-  background-image: url("ideaa.png");
+  margin: 20px 20px 24px 15px;
+  padding: 55px 60px 0px 50px;
+  background-color: #febf52;
+}
+
+.clipart {
+  margin-left: 100px;
+  margin-top: -19px;
+}
+
+.cliparttwo {
+  margin: -19px 0 -4px 108px;
 }
 
 .tileone {
