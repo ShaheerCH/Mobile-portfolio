@@ -6,6 +6,11 @@
   padding: 0;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -45,8 +50,11 @@ nav {
   padding: 20px 16px 40px 16px;
 }
 
-button {
-  margin: 0 16px;
+.connect {
+  margin: 0 26px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   font-family: "Poppins", "Courier New", Courier, monospace;
   font-weight: 500;
   font-size: 19px;
@@ -54,15 +62,60 @@ button {
   line-height: 20px;
   background-color: #1a2236;
   height: 50px;
-  width: 250px;
-  border: none;
-  margin-bottom: 32px;
+  width: 82%;
+  border: 2px solid;
 }
 
-.button {
+.connect:hover {
+  background-color: white;
+  color: #1a2236;
+}
+
+.download {
   display: flex;
-  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+.see-project {
+  margin: 0 20px 32px;
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 20px;
+  background-color: #1a2236;
+  height: 50px;
+  width: 250px;
+  border: 2px solid;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   color: white;
+  border-color: white;
+}
+
+.see-project:hover {
+  background-color: white;
+  color: #1a2236;
+  border-color: #1a2236;
+}
+
+.background-image {
+  background-image: url("bgbg.png");
+  background-repeat: repeat-x;
+  padding: 19vh 30vh;
+  width: 100%;
+  height: auto;
+}
+
+.projects {
+  display: grid;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  background-color: #1a2236;
 }
 
 .design-one {
@@ -76,6 +129,36 @@ button {
   font-weight: 400;
   color: #1a2236;
   margin: 40px 123px 32px 16px;
+}
+
+.project-name {
+  padding: 20px 55px 16px 20px;
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  font-size: 20px;
+  line-height: 16px;
+  font-weight: 300;
+  color: white;
+}
+
+.project-details {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  margin-left: 16px;
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  font-size: 11px;
+  color: #1a2236;
+}
+
+.lang {
+  background-color: #98dede;
+  padding: 4px 10px;
+  margin: 0 5px 20px 5px;
+}
+
+.button {
+  padding-bottom: 10px;
+  display: flex;
 }
 
 .about {
@@ -104,4 +187,60 @@ button {
 
 h2 {
   display: none;
+}
+
+.end {
+  margin: 0 16px;
+}
+
+.skill-containor {
+  margin: 20px 20px 24px 15px;
+  padding: 55px 60px 0 50px;
+  background-color: #1c528a;
+}
+
+.skill-containortwo {
+  margin: 20px 20px 24px 15px;
+  padding: 55px 60px 0 50px;
+  background-color: #e2505c;
+}
+
+.skill-containorthree {
+  margin: 20px 20px 24px 15px;
+  padding: 55px 60px 0 50px;
+  background-color: #febf52;
+}
+
+.clipart {
+  margin-left: 100px;
+  margin-top: -19px;
+  width: 72%;
+}
+
+.cliparttwo {
+  margin: -19px 0 -4px 108px;
+  width: 72%;
+}
+
+.tileone {
+  font-size: 20px;
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  font-weight: 800;
+  line-height: 30px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: white;
+}
+
+.thumbnails {
+  width: 100%;
 }
