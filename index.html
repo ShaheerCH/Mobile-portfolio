@@ -8,18 +8,19 @@
     <link rel="stylesheet" href="stylesheet.css" />
   </head>
   <body>
-    <header>
-  <a href="#">
-    <img src="geo1.png" alt="cool logo" />
-  </a>
-  <nav class="nav_links">
-    <div class="burger">
-      <div class="line1"></div>
-      <div class="line2"></div>
-      <div class="line3"></div>
-    </div>
-  </nav>
-</header>
+    <header class="header">
+      <a href="#">
+        <img src="geo1.png" alt="cool logo" />
+      </a>
+      <nav class="nav_links">
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </header>
+
     <section class="hero">
       <h2>hello</h2>
       <h1 class="logo">
@@ -32,20 +33,92 @@
         If you like what you see and have a project you need coded, don’t
         hesitate and contact me.
       </p>
-
-      <button type="button">Lets Connect</button>
-      <img class="design-one" src="bgbg.png" alt="hardwork bro" />
+      <button type="button" class="connect">Lets Connect</button>
+      <div class="background-image"></div>
     </section>
 
     <section class="Projects">
       <div class="headingtwo">Projects</div>
-      <img src="Rectangle21.png" alt="project 1" />
+
       <div class="project-info">
-        <div>Project name goes here</div>
-        <ul>
-          <li>HTML/CSS</li>
-          <li>Ruby on Rails</li>
-          <li>JavaScript</li>
+        <img class="thumbnails" src="Rectangle21.png" alt="project 1" />
+        <h3 class="project-name">AI blog writer</h3>
+        <ul class="project-details">
+          <li class="lang">HTML/CSS</li>
+          <li class="lang">Ruby on Rails</li>
+          <li class="lang">JavaScript</li>
+        </ul>
+        <div class="button">
+          <button type="button" class="see-project">
+            See This project <img class="arrow" src="arrow.png" alt="arrow" />
+          </button>
+        </div>
+      </div>
+
+      <div class="project-info">
+        <img class="thumbnails" src="dell.png" alt="project 1" />
+        <h3 class="project-name">Wordpress Development</h3>
+        <ul class="project-details">
+          <li class="lang">HTML/CSS</li>
+          <li class="lang">Ruby on Rails</li>
+          <li class="lang">JavaScript</li>
+        </ul>
+        <div class="button">
+          <button type="button" class="see-project">
+            See This project <img class="arrow" src="arrow.png" alt="arrow" />
+          </button>
+        </div>
+      </div>
+
+      <div class="project-info">
+        <img class="thumbnails" src="something.png" alt="project 1" />
+        <h3 class="project-name">Curios guy</h3>
+        <ul class="project-details">
+          <li class="lang">HTML/CSS</li>
+          <li class="lang">Ruby on Rails</li>
+          <li class="lang">JavaScript</li>
+        </ul>
+        <div class="button">
+          <button type="button" class="see-project">
+            See This project <img class="arrow" src="arrow.png" alt="arrow" />
+          </button>
+        </div>
+      </div>
+      <div class="project-info">
+        <img class="thumbnails" src="macpro.png" alt="project 1" />
+        <h3 class="project-name">IOS simulator</h3>
+        <ul class="project-details">
+          <li class="lang">HTML/CSS</li>
+          <li class="lang">Ruby on Rails</li>
+          <li class="lang">JavaScript</li>
+        </ul>
+        <div class="button">
+          <button type="button" class="see-project">
+            See This project <img class="arrow" src="arrow.png" alt="arrow" />
+          </button>
+        </div>
+      </div>
+      <div class="project-info">
+        <img class="thumbnails" src="apple.png" alt="project 1" />
+        <h3 class="project-name">Swift Application</h3>
+        <ul class="project-details">
+          <li class="lang">HTML/CSS</li>
+          <li class="lang">Ruby on Rails</li>
+          <li class="lang">JavaScript</li>
+        </ul>
+        <div class="button">
+          <button type="button" class="see-project">
+            See This project <img class="arrow" src="arrow.png" alt="arrow" />
+          </button>
+        </div>
+      </div>
+      <div class="project-info">
+        <img class="thumbnails" src="your.png" alt="project 1" />
+        <h3 class="project-name">Dating site</h3>
+        <ul class="project-details">
+          <li class="lang">HTML/CSS</li>
+          <li class="lang">Ruby on Rails</li>
+          <li class="lang">JavaScript</li>
         </ul>
         <div class="button">
           <button type="button" class="see-project">
@@ -54,20 +127,53 @@
         </div>
       </div>
     </section>
-
     <section class="About-section">
-      <div class="about">About</div>
+      <h3 class="about">About</h3>
       <p class="about-info">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea
-        eiusmod
+        Hello! I am a software developer! I can help you build a product,
+        feature or website. Taka a look of my works. If you like what you see
+        and have a project you need coded, don’t hesitate and contact me.
       </p>
-      <button type="button" class="cv">
-        <img src="Group86.png" alt="yes" />
+      <button type="button" class="connect">
+        Get my CV
+        <img class="download" src="dont.png" alt="yes" />
       </button>
       <div></div>
     </section>
-    <section></section>
+    <section class="end">
+      <div class="skill-containor">
+        <h3 class="tileone">Languages</h3>
+        <ul class="skills">
+          <li>JavaScript</li>
+          <li>HTML</li>
+          <li>Ruby</li>
+          <li>CSS</li>
+        </ul>
+        <img class="clipart" src="hashtag.png" alt="hashtag" />
+      </div>
+
+      <div class="skill-containortwo">
+        <h3 class="tileone">Frameworks</h3>
+        <ul class="skills">
+          <li>Bootstrap</li>
+          <li>Ruby on rails</li>
+          <li>RSpec</li>
+          <li>Capibara</li>
+          <li>Selenium</li>
+        </ul>
+        <img class="cliparttwo" src="box.png" alt="box" />
+      </div>
+
+      <div class="skill-containorthree">
+        <h3 class="tileone">Skills</h3>
+        <ul class="skills">
+          <li>Codekit</li>
+          <li>Codepen</li>
+          <li>Github</li>
+          <li>Terminal</li>
+        </ul>
+        <img class="clipart" src="bulb.png" alt="bulb" />
+      </div>
+    </section>
   </body>
 </html>

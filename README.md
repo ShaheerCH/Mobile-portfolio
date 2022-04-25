@@ -2,6 +2,10 @@ Project Name. Porfolio Mobile Skeleton
 Description the project.
 This is a portfolio to showcase the projects author has worked on and created 
 
+Add header
+Add bio
+Add Project details
+Add skills
 Major languages: * HTML and CSS**
 .
 
