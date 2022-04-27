@@ -247,8 +247,10 @@ h2 {
 
 .Forms {
   background-image: url("background-last.png");
+  background-repeat: no-repeat; 
   background-repeat: none;
-  padding: 106px 0 0 16px;
+  background-size: cover;
+  padding: 106px 16px 0 16px;
 }
 .forms {
   display: flex;
@@ -262,7 +264,7 @@ h2 {
 .footer {
   font-family: "Playfair Display", "Courier New", Courier, monospace;
   font-size: 50px;
-  line-height: 50px;
+  line-height: 55px;
   font-weight: 400;
   color: #1a2236;
 }
@@ -281,9 +283,17 @@ h2 {
   background-color: white;
   margin-bottom: 8px;
   size: 288px;
-  padding: 20px 16px 8px;
-  border-color: #dfdfe0;
-  border-radius: 3px;
+  padding: 20px 16px 8px;  
+  border-radius: 3px; 
+  width: 100%;
+}
+
+.name-input {
+  border: 1px solid #dfdfe0;
+}
+
+.email-input {
+  border: 1px solid #1a2236;
 }
 
 .input {
