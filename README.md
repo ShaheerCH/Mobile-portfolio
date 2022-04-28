@@ -1,23 +1,48 @@
-Project Name. Porfolio Mobile Skeleton
-Description the project.
-This is a portfolio to showcase the projects author has worked on and created 
+# Portfolio-setup-and-mobile-version-skeleton
 
-Add header
-Add bio
-Add Project details
-Add skills
-Major languages: * HTML and CSS**
-.
+This portfolio is practice for the sake of learning.
 
-To get a local copy up and running follow these simple example steps.
-Clone repository with git clone https://github.com/ShaheerCH/Mobile-portfolio.git
-Open index.html
+<ul>
 
-GitHub: @ShaheerCH
+<li> Add header </li>
+<li>Add bio </li>
+<li>Add Project details </li>
+<li>Add skills </li>
+<li>Add Forms </li>
+<li> Add Social</li>
+</ul>
+## Built With
+
+- HTML
+- CSS
+  -> flexbox
+
+## Getting Started
+
+Clone the repository to use it on your local system.
+
+## Usage
+
+View the file through the 'index.html'.
+
+## Authors
+
+👤 **Author**
+
+- GitHub: [@githubhandle](@ShaheerCH)
+
+## 🤝 Contributing
+
+<ul>
+<li> @tahseenzahra</li>
+<li> @bobb-Rob </li>
+</ul>
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the issues page.
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
 
 Show your support
 Give a ⭐️ if you like this project!

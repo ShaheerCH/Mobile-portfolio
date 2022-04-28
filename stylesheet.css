@@ -11,7 +11,7 @@ header {
   justify-content: space-between;
 }
 
-nav {
+.nav_links {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -243,4 +243,139 @@ h2 {
 
 .thumbnails {
   width: 100%;
+}
+
+.Forms {
+  background-image: url("background-last.png");
+  background-repeat: no-repeat;
+  padding: 106px 16px 0 16px;
+  background-color: #f9f9fa;
+}
+
+label {
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+  color: #7d7c84;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: none;
+  outline: none;
+}
+
+.footerttl {
+  font-family: "Playfair Display", "Courier New", Courier, monospace;
+  font-size: 50px;
+  line-height: 55px;
+  font-weight: 400;
+  color: #1a2236;
+  width: 89%;
+}
+
+.foot-bio {
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  margin: 20px 14px 32px 18px;
+  width: 89%;
+}
+
+.Input-container {
+  background-color: white;
+  margin-bottom: 8px;
+  display: grid;
+  size: 288px;
+  padding: 5px 14px 8px;
+  border-radius: 4px;
+  width: 89%;
+  border: 1px solid #dfdfe0;
+}
+
+.input {
+  border: none;
+}
+
+.message {
+  padding: 10px;
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  border: none;
+}
+
+.collab {
+  margin: 20px 26px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  font-weight: 500;
+  font-size: 19px;
+  color: white;
+  line-height: 20px;
+  background-color: #1a2236;
+  height: 50px;
+  width: 89%;
+  border: 2px solid;
+}
+
+.collab:hover {
+  background-color: white;
+  color: #1a2236;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1a2236;
+  padding-top: 32px;
+}
+
+.last {
+  background-color: #1a2236;
+}
+
+.footer a {
+  font-family: "Poppins", sans-serif;
+  color: #92dcdc;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+#media {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: #92dcdc;
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+#media img {
+  margin-left: 10px;
+}
+
+.social {
+  flex: 1 1 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#bottom-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
