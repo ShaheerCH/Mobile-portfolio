@@ -179,38 +179,80 @@
 
     <section class="Forms">
       <form action="index.html" class="forms">
-        <h3 class="footer">Get Started</h3>
+        <h3 class="footerttl">Get Started</h3>
         <p class="foot-bio">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna.
         </p>
 
         <div class="Input-container name-input">
           <label for="username">Your name</label>
-          <input type="text" id="username" name="Name" class="input" size="30" />          
+          <input
+            type="text"
+            id="username"
+            name="Name"
+            class="input"
+            maxlength="30"
+            placeholder="Alan Shore"
+            required
+          />
         </div>
 
         <div class="Input-container email-input">
           <label for="email">Your email</label>
-          <input type="email" name="email" id="email" class="input" />          
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="input"
+            placeholder="name@email.com"
+            required
+          />
         </div>
 
-        <div class="Input-container-text">
+        <div class="Input-container text">
           <textarea
             name="message"
             class="message"
-            cols="60"
-            rows="7"
+            cols="32"
+            rows="8"
             maxlength="500"
+            required
             placeholder="Enter your message here"
           ></textarea>
           <label for="Message"></label>
         </div>
-        <button type="button" class="CollabBTN">
-          Start collaboration
-        </button>
+        <input type="submit" value="Start Collaboration" class="collab" />
       </form>
     </section>
 
-    <section></section>
+    <section class="last">
+      <footer class="footer">
+        <a id="resume" href="#"
+          >Get my Resume
+          <img src="dn.png" alt="new-tab" />
+        </a>
+        <div class="social">
+          <a href="#">
+            <img src="st.png" alt="stackoverflow" />
+          </a>
+          <a href="#">
+            <img src="gh.png" alt="github" />
+          </a>
+          <a href="#">
+            <img src="tw.png" alt="twitter" />
+          </a>
+          <a href="#">
+            <img src="in.png" alt="linkedin" />
+          </a>
+          <a href="#">
+            <img src="m.png" alt="medium" />
+          </a>
+          <a href="#">
+            <img src="two.png" alt="angelist" />
+          </a>
+        </div>
+      </footer>
+    </section>
   </body>
 </html>

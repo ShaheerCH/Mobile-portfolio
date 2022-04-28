@@ -11,7 +11,7 @@ header {
   justify-content: space-between;
 }
 
-nav {
+.nav_links {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -247,11 +247,21 @@ h2 {
 
 .Forms {
   background-image: url("background-last.png");
-  background-repeat: no-repeat; 
-  background-repeat: none;
-  background-size: cover;
+  background-repeat: no-repeat;
   padding: 106px 16px 0 16px;
+  background-color: #f9f9fa;
 }
+
+label {
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7d7c84;
+}
+
 .forms {
   display: flex;
   flex-direction: column;
@@ -261,7 +271,7 @@ h2 {
   outline: none;
 }
 
-.footer {
+.footerttl {
   font-family: "Playfair Display", "Courier New", Courier, monospace;
   font-size: 50px;
   line-height: 55px;
@@ -282,28 +292,91 @@ h2 {
 .Input-container {
   background-color: white;
   margin-bottom: 8px;
+  display: grid;
   size: 288px;
-  padding: 20px 16px 8px;  
-  border-radius: 3px; 
-  width: 100%;
-}
-
-.name-input {
+  padding: 5px 14px 8px;
+  border-radius: 4px;
+  width: 89%;
   border: 1px solid #dfdfe0;
-}
-
-.email-input {
-  border: 1px solid #1a2236;
 }
 
 .input {
   border: none;
-  border-radius: 10px;
 }
 
-.CollabBTN {
-  background: #1a2236;
-  color: #fff;
-  width: 288px;
-  height: 44px;
+.message {
+  padding: 10px;
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  border: none;
+}
+
+.collab {
+  margin: 20px 26px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  font-weight: 500;
+  font-size: 19px;
+  color: white;
+  line-height: 20px;
+  background-color: #1a2236;
+  height: 50px;
+  width: 82%;
+  border: 2px solid;
+}
+
+.collab:hover {
+  background-color: white;
+  color: #1a2236;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1a2236;
+  padding-top: 32px;
+}
+
+.last {
+  background-color: #1a2236;
+}
+
+.footer a {
+  font-family: "Poppins", sans-serif;
+  color: #92dcdc;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+#resume {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: #92dcdc;
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+#resume img {
+  margin-left: 10px;
+}
+
+.social {
+  flex: 1 1 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#bottom-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
