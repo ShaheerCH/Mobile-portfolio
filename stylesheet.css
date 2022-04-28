@@ -300,3 +300,10 @@ h2 {
   border: none;
   border-radius: 10px;
 }
+
+.CollabBTN {
+  background: #1a2236;
+  color: #fff;
+  width: 288px;
+  height: 44px;
+}
