@@ -92,6 +92,7 @@ header {
   align-items: center;
   color: white;
   border-color: white;
+  transition: border 2s, color 2s, background-color 1s;
 }
 
 .see-project:hover {
