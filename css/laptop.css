@@ -119,6 +119,8 @@ header {
   grid-column: 4/10;
   overflow: hidden;
   background-image: url(../media/project_thumbnail_1.svg);
+  margin-left: 14px;
+  margin-top: -3px;
 }
 
 .two {
@@ -126,6 +128,7 @@ header {
   grid-column: 1/4;
   overflow: hidden;
   background-image: url(../media/project_thumbnail_2.svg);
+  margin-bottom: -3px;
 }
 
 .three {
@@ -152,6 +155,7 @@ header {
   grid-column: 7/10;
   overflow: hidden;
   background-image: url(../media/project_thumbnail_5.svg);
+  margin-left: 3px;
 }
 
 .six {
@@ -383,7 +387,7 @@ header {
   background-image: url(../media/image-geometry_2.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  grid-column: 4/7;
+  grid-column: 4/8;
   grid-row: 2/6;
 }
 
@@ -393,7 +397,7 @@ header {
   background-repeat: no-repeat;
   background-size: contain;
   grid-column: 6/10;
-  grid-row: 7/10;
+  grid-row: 7/11;
 }
 
 #image-geometry-4 {
@@ -540,7 +544,7 @@ header {
   width: 50vw;
   justify-content: center;
   margin-top: 4vw;
-  margin-bottom: 20vw;
+  margin-bottom: 24vw;
 }
 
 .form-list {
