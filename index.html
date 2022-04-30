@@ -5,254 +5,299 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="stylesheet.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 763px)"
+      href="./css/laptop.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 762px)"
+      href="css/navbar.css"
+    />
   </head>
+
   <body>
-    <header class="header">
-      <a href="#">
-        <img src="geo1.png" alt="cool logo" />
-      </a>
-      <nav class="nav_links">
-        <div class="burger">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
+    <header>
+      <nav class="navbar">
+        <ul class="menu">
+          <li class="menu-link">
+            <a id="hello" href="#hello-section">Hello</a>
+          </li>
+          <li class="menu-link"><a href="#portfolio-section">Portfolio</a></li>
+          <li class="menu-link"><a href="#about-section">About</a></li>
+          <li class="menu-link"><a href="#contact-section">Contact</a></li>
+          <li class="Toggle">
+            <img src="media/times.svg" alt="Toggle" />
+          </li>
+          <li class="menu-bottom"></li>
+        </ul>
+        <img
+          class="togglenavbar open"
+          src="media/ic_menu.svg"
+          alt="hamburguer menu icon"
+        />
       </nav>
     </header>
 
-    <section class="hero">
-      <h2>hello</h2>
-      <h1 class="logo">
-        Shaheer <br />
-        Chaudry
-      </h1>
-      <p class="greeting">
-        Hello! I am a software developer! I can help you build a product,
-        feature or website. Taka a look of my works. <br />
-        If you like what you see and have a project you need coded, don’t
-        hesitate and contact me.
-      </p>
-      <button type="button" class="connect">Lets Connect</button>
-      <div class="background-image"></div>
-    </section>
-
-    <section class="Projects">
-      <div class="headingtwo">Projects</div>
-
-      <div class="project-info">
-        <img class="thumbnails" src="Rectangle21.png" alt="project 1" />
-        <h3 class="project-name">AI blog writer</h3>
-        <ul class="project-details">
-          <li class="lang">HTML/CSS</li>
-          <li class="lang">Ruby on Rails</li>
-          <li class="lang">JavaScript</li>
-        </ul>
-        <div class="button">
-          <button type="button" class="see-project">
-            See This project <img class="arrow" src="arrow.png" alt="arrow" />
+    <main>
+      <section class="headline" id="hello-section">
+        <div class="left">
+          <h1 id="author">
+            Shaheer <br />
+            Chaudry
+          </h1>
+          <p id="bio">
+            Hello! I am a software developer! I can help you build a product,
+            feature or website. Take a look at my work. If you like what you see
+            and have a project you need coded, don’t hesitate and contact me.
+          </p>
+          <button id="start-collaboration" type="button">
+            Start collaboration
           </button>
         </div>
-      </div>
+        <div class="right"></div>
+      </section>
 
-      <div class="project-info">
-        <img class="thumbnails" src="dell.png" alt="project 1" />
-        <h3 class="project-name">Wordpress Development</h3>
-        <ul class="project-details">
-          <li class="lang">HTML/CSS</li>
-          <li class="lang">Ruby on Rails</li>
-          <li class="lang">JavaScript</li>
-        </ul>
-        <div class="button">
-          <button type="button" class="see-project">
-            See This project <img class="arrow" src="arrow.png" alt="arrow" />
+      <section class="projects" id="portfolio-section">
+        <div id="projects-title">
+          <h1>Projects</h1>
+        </div>
+        <div class="one">
+          <div class="thumbnail"></div>
+          <div class="project-summary">
+            <h2>Project One</h2>
+            <ul>
+              <li>HTML/CSS</li>
+              <li>Ruby on Rails</li>
+              <li>Javascript</li>
+            </ul>
+            <button class="see-project" type="button">
+              See this project
+              <img src="media/Union.png" alt="right-arrow" />
+            </button>
+          </div>
+        </div>
+
+        <div class="two">
+          <div class="thumbnail"></div>
+          <div class="project-summary">
+            <h2>Project Two</h2>
+            <ul>
+              <li>HTML/CSS</li>
+              <li>Ruby on Rails</li>
+              <li>Javascript</li>
+            </ul>
+            <button class="see-project" type="button">
+              See this project
+              <img src="media/Union.png" alt="right-arrow" />
+            </button>
+          </div>
+        </div>
+
+        <div class="three">
+          <div class="thumbnail"></div>
+          <div class="project-summary">
+            <h2>Project Three</h2>
+            <ul>
+              <li>HTML/CSS</li>
+              <li>Ruby on Rails</li>
+              <li>Javascript</li>
+            </ul>
+            <button class="see-project" type="button">
+              See this project
+              <img src="media/Union.png" alt="right-arrow" />
+            </button>
+          </div>
+        </div>
+
+        <div class="four">
+          <div class="thumbnail"></div>
+          <div class="project-summary">
+            <h2>Project Four</h2>
+            <ul>
+              <li>HTML/CSS</li>
+              <li>Ruby on Rails</li>
+              <li>Javascript</li>
+            </ul>
+            <button class="see-project" type="button">
+              See this project
+              <img src="media/Union.png" alt="right-arrow" />
+            </button>
+          </div>
+        </div>
+
+        <div class="five">
+          <div class="thumbnail"></div>
+          <div class="project-summary">
+            <h2>Project Five</h2>
+            <ul>
+              <li>HTML/CSS</li>
+              <li>Ruby on Rails</li>
+              <li>Javascript</li>
+            </ul>
+            <button class="see-project" type="button">
+              See this project
+              <img src="media/Union.png" alt="right-arrow" />
+            </button>
+          </div>
+        </div>
+
+        <div class="six">
+          <div class="thumbnail"></div>
+          <div class="project-summary">
+            <h2>Project Six</h2>
+            <ul>
+              <li>HTML/CSS</li>
+              <li>Ruby on Rails</li>
+              <li>Javascript</li>
+            </ul>
+            <button class="see-project" type="button">
+              See this project
+              <img src="media/Union.png" alt="right-arrow" />
+            </button>
+          </div>
+        </div>
+
+        <div id="image-geometry-2"></div>
+        <div id="image-geometry-3"></div>
+        <div id="image-geometry-4"></div>
+        <div id="image-geometry-5"></div>
+      </section>
+
+      <section class="about" id="about-section">
+        <div class="right">
+          <h1>About</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ea eiusmod
+          </p>
+          <button id="get-my-cv" type="button">
+            Get my CV
+            <img src="media/ic_download.svg" alt="download-icon" />
           </button>
         </div>
-      </div>
-
-      <div class="project-info">
-        <img class="thumbnails" src="something.png" alt="project 1" />
-        <h3 class="project-name">Curios guy</h3>
-        <ul class="project-details">
-          <li class="lang">HTML/CSS</li>
-          <li class="lang">Ruby on Rails</li>
-          <li class="lang">JavaScript</li>
-        </ul>
-        <div class="button">
-          <button type="button" class="see-project">
-            See This project <img class="arrow" src="arrow.png" alt="arrow" />
-          </button>
+        <div class="knowledge">
+          <div class="languages">
+            <h2>Languages</h2>
+            <ul>
+              <li>Javascript(ES5/ES6)</li>
+              <li>Ruby</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div class="frameworks">
+            <h2>Frameworks</h2>
+            <ul>
+              <li>Bootstrap</li>
+              <li>Ruby on rails</li>
+              <li>RSpec</li>
+              <li>Capibara</li>
+              <li>Selenium</li>
+            </ul>
+          </div>
+          <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+              <li>Codekit</li>
+              <li>Codepen</li>
+              <li>GitHub</li>
+              <li>GitLab</li>
+              <li>Terminal</li>
+            </ul>
+          </div>
+          <div class="dots-tile"></div>
         </div>
-      </div>
-      <div class="project-info">
-        <img class="thumbnails" src="macpro.png" alt="project 1" />
-        <h3 class="project-name">IOS simulator</h3>
-        <ul class="project-details">
-          <li class="lang">HTML/CSS</li>
-          <li class="lang">Ruby on Rails</li>
-          <li class="lang">JavaScript</li>
-        </ul>
-        <div class="button">
-          <button type="button" class="see-project">
-            See This project <img class="arrow" src="arrow.png" alt="arrow" />
-          </button>
+      </section>
+
+      <section class="contact-me" id="contact-section">
+        <div class="contact-me-form">
+          <div class="top">
+            <h1>Get started</h1>
+            <p id="form-description">
+              I would love to hear from you, fill the form bellow to get in
+              touch
+            </p>
+          </div>
+          <form
+            class="form"
+            action="https://formspree.io/f/mqknglvd"
+            method="post"
+          >
+            <ul class="form-list">
+              <li id="form-name">
+                <label for="name">Your name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Alan Shore"
+                  maxlength="30"
+                  required
+                />
+              </li>
+              <li id="form-email">
+                <label for="email">Your email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="name@email.com"
+                  required
+                />
+              </li>
+            </ul>
+            <label id="msg-label" for="msg">Message</label>
+            <textarea
+              id="msg"
+              name="message"
+              placeholder="Enter your message here..."
+              cols="32"
+              rows="8"
+              maxlength="500"
+              required
+            ></textarea>
+            <button type="submit" id="submit-form">Start collaboration</button>
+          </form>
         </div>
-      </div>
-      <div class="project-info">
-        <img class="thumbnails" src="apple.png" alt="project 1" />
-        <h3 class="project-name">Swift Application</h3>
-        <ul class="project-details">
-          <li class="lang">HTML/CSS</li>
-          <li class="lang">Ruby on Rails</li>
-          <li class="lang">JavaScript</li>
-        </ul>
-        <div class="button">
-          <button type="button" class="see-project">
-            See This project <img class="arrow" src="arrow.png" alt="arrow" />
-          </button>
-        </div>
-      </div>
-      <div class="project-info">
-        <img class="thumbnails" src="your.png" alt="project 1" />
-        <h3 class="project-name">Dating site</h3>
-        <ul class="project-details">
-          <li class="lang">HTML/CSS</li>
-          <li class="lang">Ruby on Rails</li>
-          <li class="lang">JavaScript</li>
-        </ul>
-        <div class="button">
-          <button type="button" class="see-project">
-            See This project <img class="arrow" src="arrow.png" alt="arrow" />
-          </button>
-        </div>
-      </div>
-    </section>
-    <section class="About-section">
-      <h3 class="about">About</h3>
-      <p class="about-info">
-        Hello! I am a software developer! I can help you build a product,
-        feature or website. Taka a look of my works. If you like what you see
-        and have a project you need coded, don’t hesitate and contact me.
-      </p>
-      <button type="button" class="connect">
-        Get my CV
-        <img class="download" src="dont.png" alt="yes" />
-      </button>
+      </section>
 
-      <div></div>
-    </section>
-    <section class="end">
-      <div class="skill-containor">
-        <h3 class="tileone">Languages</h3>
-        <ul class="skills">
-          <li>JavaScript</li>
-          <li>HTML</li>
-          <li>Ruby</li>
-          <li>CSS</li>
-        </ul>
-        <img class="clipart" src="hashtag.png" alt="hashtag" />
-      </div>
-
-      <div class="skill-containortwo">
-        <h3 class="tileone">Frameworks</h3>
-        <ul class="skills">
-          <li>Bootstrap</li>
-          <li>Ruby on rails</li>
-          <li>RSpec</li>
-          <li>Capibara</li>
-          <li>Selenium</li>
-        </ul>
-        <img class="cliparttwo" src="box.png" alt="box" />
-      </div>
-
-      <div class="skill-containorthree">
-        <h3 class="tileone">Skills</h3>
-        <ul class="skills">
-          <li>Codekit</li>
-          <li>Codepen</li>
-          <li>Github</li>
-          <li>Terminal</li>
-        </ul>
-        <img class="clipart" src="bulb.png" alt="bulb" />
-      </div>
-    </section>
-
-    <section class="Forms">
-      <form action="https://formspree.io/f/mqknglvd"
-  method="POST" class="forms">
-        <h3 class="footerttl">Get Started</h3>
-        <p class="foot-bio">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna.
-        </p>
-
-        <div class="Input-container name-input">
-          <label for="username">Your name</label>
-          <input
-            type="text"
-            id="username"
-            name="Name"
-            class="input"
-            maxlength="30"
-            placeholder="Alan Shore"
-            required
-          />
-        </div>
-
-        <div class="Input-container email-input">
-          <label for="email">Your email</label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            class="input"
-            placeholder="name@email.com"
-            required
-          />
-        </div>
-
-        <div class="Input-container text">
-          <textarea
-            name="message"
-            class="message"
-            cols="32"
-            rows="8"
-            maxlength="500"
-            required
-            placeholder="Enter your message here"
-          ></textarea>
-        </div>
-        <input type="submit" value="Start Collaboration" class="collab" />
-      </form>
-    </section>
-
-    <section class="last">
-      <footer class="footer">
-        <a id="media" href="#"
-          >Get my Resume
-          <img src="dn.png" alt="new-tab" />
-        </a>
-        <div class="social">
-          <a href="#">
-            <img src="st.png" alt="stackoverflow" />
+      <section class="end">
+        <footer class="footer">
+          <a id="resume" href="#"
+            >Get my Resume
+            <img src="media/Union2.png" alt="new-tab" />
           </a>
-          <a href="#">
-            <img src="gh.png" alt="github" />
-          </a>
-          <a href="#">
-            <img src="tw.png" alt="twitter" />
-          </a>
-          <a href="#">
-            <img src="in.png" alt="linkedin" />
-          </a>
-          <a href="#">
-            <img src="m.png" alt="medium" />
-          </a>
-          <a href="#">
-            <img src="two.png" alt="angelist" />
-          </a>
-        </div>
-      </footer>
-    </section>
+          <div class="social-networks">
+            <a href="#">
+              <img src="media/ic_stackoverflow.svg" alt="StackOverflow" />
+            </a>
+            <a href="#">
+              <img src="media/ic_github.svg" alt="Github" />
+            </a>
+            <a href="#">
+              <img src="media/ic_twitter.svg" alt="Twitter" />
+            </a>
+            <a href="#">
+              <img src="media/ic_linkedin.svg" alt="Linkedin" />
+            </a>
+            <a href="#">
+              <img src="media/ic_medium.svg" alt="Medium" />
+            </a>
+            <a href="#">
+              <img src="media/ic_angellist.svg" alt="Angelist" />
+            </a>
+          </div>
+        </footer>
+      </section>
+    </main>
   </body>
 </html>

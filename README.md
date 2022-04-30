@@ -10,6 +10,7 @@ This portfolio is practice for the sake of learning.
 <li>Add skills </li>
 <li>Add Forms </li>
 <li> Add Social</li>
+<li> Add Media Query </li>
 </ul>
 ## Built With
 
