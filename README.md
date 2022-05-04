@@ -2,6 +2,11 @@
 
 This portfolio is practice for the sake of learning.
 
+weblink https://shaheerch.github.io/
+
+<a href="https://shaheerch.github.io/">
+              <img src="media/ss.png" alt="Webshot" />
+            </a>
 <ul>
 
 <li> Add header </li>
@@ -11,6 +16,7 @@ This portfolio is practice for the sake of learning.
 <li>Add Forms </li>
 <li> Add Social</li>
 <li> Add Media Query </li>
+<li> Web Deployment </li>
 </ul>
 ## Built With
 

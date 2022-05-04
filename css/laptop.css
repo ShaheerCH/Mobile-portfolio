@@ -155,7 +155,7 @@ header {
   grid-column: 7/10;
   overflow: hidden;
   background-image: url(../media/project_thumbnail_5.svg);
-  margin-left: 3px;
+  margin-left: 5px;
 }
 
 .six {
@@ -387,8 +387,10 @@ header {
   background-image: url(../media/image-geometry_2.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  grid-column: 4/8;
+  grid-column: 4/7;
   grid-row: 2/6;
+  margin-right: -4px;
+  margin-top: 2px;
 }
 
 #image-geometry-3 {
@@ -558,6 +560,7 @@ header {
   height: 33px;
   margin: 0;
   padding-left: 20px;
+  padding-bottom: 8px;
 }
 
 label {
