@@ -641,7 +641,7 @@ textarea {
   font-family: "Poppins", "Courier New", Courier, monospace;
   color: #1a2236;
   font-size: 35px;
-  margin: 25px 0px -5px 0px;
+  margin: 25px 0 -5px 0;
 }
 
 .footeer-head {
@@ -662,7 +662,7 @@ textarea {
   align-items: center;
   justify-content: flex-start;
   gap: 1vw;
-  padding-left: 0vw;
+  padding-left: 0;
   margin: 10px 0 15px 0;
 }
 
