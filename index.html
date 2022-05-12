@@ -320,10 +320,14 @@
                   id="email"
                   name="email"
                   placeholder="name@email.com"
-                  pattern="[a-z@.-_0-9]+"
+                  required
+                  pattern="[a-z@.]+"
                 />
               </li>
             </ul>
+            <script src="valid.js"></script>
+            <!-- oninvalid="this.setCustomValidity('Enter email in lowecase')" 
+                  oninput="this.setCustomValidity('')"-->
             <label id="msg-label" for="msg">Message</label>
             <textarea
               id="msg"
