@@ -625,11 +625,9 @@ textarea {
 }
 
 .footeer {
-  flex-wrap: nowrap;
   padding-top: 0;
   padding-left: 1vw;
   padding-right: 1vw;
-  transform: scale(1);
   display: none;
 }
 
@@ -640,7 +638,7 @@ textarea {
 }
 
 .footeer h2 {
-  font-family: "Poppins";
+  font-family: "Poppins", "Courier New", Courier, monospace;
   color: #1a2236;
   font-size: 35px;
   margin: 25px 0px -5px 0px;
@@ -677,7 +675,7 @@ textarea {
   font-weight: 600;
   list-style: none;
   border: 1px solid;
-  font-family: "Poppins";
+  font-family: "Poppins", "Courier New", Courier, monospace;
 }
 
 .info {
@@ -685,7 +683,7 @@ textarea {
 }
 
 .footeer p {
-  font-family: "Poppins";
+  font-family: "Poppins", "Courier New", Courier, monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -701,7 +699,7 @@ textarea {
 .footeer a {
   text-decoration: none;
   color: #1a2236;
-  font-family: "Poppins";
+  font-family: "Poppins", "Courier New", Courier, monospace;
   font-size: 16px;
   display: flex;
   gap: 10px;
@@ -715,7 +713,7 @@ textarea {
 }
 
 .footeer button {
-  font-family: "Poppins";
+  font-family: "Poppins", "Courier New", Courier, monospace;
   font-size: 18px;
   border: 2px solid #1a2236;
   color: #1a2236;
