@@ -84,6 +84,73 @@
           </div>
         </div>
 
+        <section>
+          <div class="footeer">
+            <div class="project-details">
+              <div class="footeer-head">
+                <h2 class="title">Project 1</h2>
+                <div class="times">&times;</div>
+              </div>
+              <ul>
+                <li>HTML/CSS</li>
+                <li>Ruby on Rails</li>
+                <li>Javascript</li>
+              </ul>
+              <div class="ss">
+                <div class="s">
+                  <img
+                    class="sss"
+                    src="media/project_thumbnail_1.svg"
+                    alt="project1"
+                  />
+                </div>
+              </div>
+              <div class="info">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Porro amet et sequi aperiam, nesciunt laboriosam blanditiis
+                  nostrum delectus cumque odit, debitis id tempore natus. Totam
+                  cum repellat quod nostrum nihil asperiores esse ducimus amet,
+                  laboriosam sequi molestias ab, tempore facere fugiat enim quo
+                  veritatis. Laudantium mollitia culpa ab velit soluta odit
+                  voluptatem numquam sed in omnis nemo pariatur beatae cumque ea
+                  quaerat, nam molestias accusantium, fugiat distinctio
+                  perspiciatis asperiores quisquam officia! <br /><br />
+                  Error repellat, ex alias quae veniam ullam expedita
+                  consequuntur! Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Cum eius nesciunt illum a in soluta ratione
+                  minus numquam atque, velit corporis possimus doloribus harum
+                  expedita reiciendis? Ad quidem tenetur ipsa tempora iste?
+                  Voluptas neque vero consequuntur voluptate eaque quo
+                  asperiores enim ipsa explicabo, provident autem, blanditiis
+                  natus error accusantium. Sed quidem commodi quo quisquam
+                  quaerat possimus incidunt voluptatibus voluptate tempore.
+                </p>
+                <div class="btn">
+                  <button class="resume" href="#">
+                    See Live
+                    <img src="media/Union2.png" alt="new-page" />
+                  </button>
+                  <button class="resume" href="#">
+                    See Source
+                    <img src="media/ic_github.svg" alt="new-page" />
+                  </button>
+                </div>
+                <div class="project-scroll">
+                  <a class="resume" href="#"
+                    ><img src="media/left.svg" alt="new-page" /> Previous
+                    Project
+                  </a>
+                  <a class="resume" href="#">
+                    Next Project
+                    <img src="media/right.svg" alt="new-page" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <div class="two">
           <div class="thumbnail"></div>
           <div class="project-summary">
@@ -237,6 +304,7 @@
                 <label for="name">Your name</label>
                 <input
                   type="text"
+                  onchange="storeData();"
                   id="name"
                   name="name"
                   placeholder="Alan Shore"
@@ -248,6 +316,7 @@
                 <label for="email">Your email</label>
                 <input
                   type="email"
+                  onchange="storeData();"
                   id="email"
                   name="email"
                   placeholder="name@email.com"
@@ -259,6 +328,7 @@
             <textarea
               id="msg"
               name="message"
+              onchange="storeData();"
               placeholder="Enter your message here..."
               cols="32"
               rows="8"
@@ -300,5 +370,6 @@
       </section>
     </main>
     <script src="menu.js"></script>
+    <script src="save.js"></script>
   </body>
 </html>

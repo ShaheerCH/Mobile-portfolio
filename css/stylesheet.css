@@ -476,3 +476,10 @@ textarea {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+.footeer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1a2236;
+  padding-top: 32px;
+}

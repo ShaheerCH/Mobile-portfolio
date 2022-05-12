@@ -623,3 +623,128 @@ textarea {
   margin-left: 1.2vw;
   width: 2vw;
 }
+
+.footeer {
+  flex-wrap: nowrap;
+  padding-top: 0;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  transform: scale(1);
+  display: none;
+}
+
+.project-details {
+  background-color: white;
+  margin: 25px;
+  padding: 0 30px 30px;
+}
+
+.footeer h2 {
+  font-family: "Poppins";
+  color: #1a2236;
+  font-size: 35px;
+  margin: 25px 0px -5px 0px;
+}
+
+.footeer-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.times {
+  font-size: 45px;
+  margin-top: 25px;
+  color: #1a2236f2;
+  font-weight: 1000;
+}
+
+.footeer ul {
+  display: flex;
+  height: 3vw;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1vw;
+  padding-left: 0vw;
+  margin: 10px 0 15px 0;
+}
+
+.footeer li {
+  padding: 7px 9px;
+  display: flex;
+  justify-content: center;
+  width: 6vw;
+  font-size: 0.8vw;
+  font-weight: 600;
+  list-style: none;
+  border: 1px solid;
+  font-family: "Poppins";
+}
+
+.info {
+  padding: 0 125px;
+}
+
+.footeer p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #1a2236;
+}
+
+.project-scroll {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footeer a {
+  text-decoration: none;
+  color: #1a2236;
+  font-family: "Poppins";
+  font-size: 16px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 30px 0 25px 0;
+}
+
+.btn {
+  display: flex;
+  gap: 25px;
+}
+
+.footeer button {
+  font-family: "Poppins";
+  font-size: 18px;
+  border: 2px solid #1a2236;
+  color: #1a2236;
+  background-color: white;
+  align-items: center;
+  display: flex;
+  padding: 5px 15px;
+  gap: 55px;
+  transition-property: background-color, color, border;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.footeer button:hover {
+  border: 2px solid #1a2236;
+  color: white;
+  background-color: #1a2236;
+}
+
+.ss {
+  max-width: 100%;
+  height: auto;
+}
+
+.s {
+  width: 100%;
+  height: 100%;
+}
+
+.sss {
+  object-fit: contain;
+}
